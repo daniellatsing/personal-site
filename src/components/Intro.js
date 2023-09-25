@@ -32,7 +32,7 @@ class Intro extends React.Component {
                         show: true, 
                         blink: true, 
                         element: '|', 
-                        hideWhenDone: true , 
+                        hideWhenDone: true, 
                         hideWhenDoneDelay: 500,
                     }}
                 >
