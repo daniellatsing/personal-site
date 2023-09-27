@@ -1,0 +1,15 @@
+.typewriter-greeting {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.typewriter-name {
+    font-weight: bold;
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+.typewriter-cursor {
+    color: var(--light-green);
+    font-weight: 700;
+}

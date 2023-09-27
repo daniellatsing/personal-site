@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+/* SITE COLOR VARIABLES */
+:root {
+  --bg-bone: #fcf9f3;
+  --beige: #e4e0d8;
+  --light-green: #CCD5AE;
+  --dark-green: #829273;
+  --black: #2A2A2D;
+  --grey: #6e6a6a;
+}
+
+/* FONT */
+body {
+  font-family: 'Nunito', sans-serif;
+  color: var(--black);
+}
+
+p {
+  font-size: 20px;
+  color: var(--black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  background-color: var(--bg-bone);
 }
 
 .App-logo {

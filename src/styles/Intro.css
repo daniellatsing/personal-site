@@ -1,0 +1,44 @@
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-top: 10%;
+    min-height: 100vh;
+}
+
+.intro-subtitle {
+    margin-top: -5vh;
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 36px;
+    width: 50%;
+}
+
+.intro-desc {
+    margin-top: 0.5vh;
+    color: var(--grey);
+    width: 55%;
+    font-size: 22px;
+    padding-bottom: 4vh;
+}
+
+.intro-contact {
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid var(--light-green);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--black);
+    align-self: baseline;
+}
+
+a.intro-contact {
+    text-decoration: none;
+}
+
+.intro-contact:hover {
+    color: var(--dark-green);
+    background-color: var(--beige);
+}
