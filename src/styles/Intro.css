@@ -27,11 +27,11 @@
     font-size: 20px;
     font-weight: bolder;
     border: 2px solid var(--light-green);
-    padding: 10px 20px;
+    padding: 20px;
     cursor: pointer;
     border-radius: 8px;
     color: var(--black);
-    align-self: baseline;
+    align-self: center;
 }
 
 a.intro-contact {
