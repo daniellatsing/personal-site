@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10%;
-    padding-top: 10%;
-    min-height: 100vh;
+    padding-top: 20%;
+    min-height: 70vh;
 }
 
 .intro-subtitle {
@@ -31,7 +31,7 @@
     cursor: pointer;
     border-radius: 8px;
     color: var(--black);
-    /* align-self: center; */
+    /* align-self: center; NEED TO FIGURE OUT HOW TO ALIGN SVG WITH TEXT*/ 
 }
 
 a.intro-contact {
