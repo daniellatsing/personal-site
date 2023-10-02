@@ -8,7 +8,7 @@ class Projects extends React.Component {
     render() {
         const projects = {
             "Indicators of Diabetes Risk": {
-                desc: "An Shiny web application that displays a graphical analysis on health factors of diabetes",
+                desc: "An Shiny web application that displays a graphical analysis on health factors of diabetes, which allows for comparison amongst different health factors.",
                 tech_stack: "R, HTML",
                 link: "https://github.com/info201b-2022-spring/indicators-of-diabetes",
                 open: "https://daniellatsing.shinyapps.io/Indicators_of_diabetes/"
@@ -18,13 +18,19 @@ class Projects extends React.Component {
                 tech_stack: "Javascript, HTML & CSS, React.js, Firebase",
                 link: "https://github.com/info340b-wi23/dearm-journal",
                 open: "https://dearm-journal-a829a.web.app"
+            },
+            "Muslim Student Association": {
+                desc: "Redesigned and implemented the website for UW Muslim Student Association (MSA).",
+                tech_stack: "Javascript, HTML &  CSS, React.js, Sanity.io, Vercel",
+                link: "https://github.com/webimpactuw/muslim-student-assoc",
+                open: "https://msauw.org"
             }
         };
 
         return(
             <div id="projects">
-                <div className="section-header">
-                    <span className="section-title">. projects</span>
+                <div className="projects-header">
+                    <span className="project-title">. projects</span>
                 </div>
                 <div className="project-container">
                     <div className="projects-grid">

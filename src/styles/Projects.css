@@ -1,13 +1,24 @@
 #projects {
-    padding-left: 10%;
+    padding-left: 15%;
     padding-right: 25%;
     min-height: 60vh;
+}
+
+.projects-header {
+    padding-bottom: 4vh;
+}
+
+.project-title {
+    color: var(--black);
+    font-size: 46px;
+    font-weight: 700;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 14px;
+    align-items: center;
 }
 
 .projects-card {
@@ -15,10 +26,11 @@
     cursor: default;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 85%;
     padding: 2rem 1.75rem;
     background-color: var(--beige);
     border-radius: 18px;
+    box-shadow: 6px 10px 16px -8px rgba(0, 0, 0, 0.46);
 }
 
 .projects-card:hover {
@@ -33,9 +45,11 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: none !important;
+    align-items: center;
 }
 
 .folder-icon {
     color: var(--dark-green);
 }
+
 

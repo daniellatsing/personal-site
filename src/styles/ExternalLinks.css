@@ -1,4 +1,33 @@
 a.github-icon, a.open-icon {
-    margin-top: 6px;
+    margin-top: 0px;
     color: var(--black);
+}
+
+/* NEEDS TO BE FIXED */
+a.github-icon:hover, a.open-icon:hover {
+    color: var(--light-green);
+}
+
+.external-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-title {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-desc {
+    color: var(--grey);
+    font-size: 18px;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+}
+
+.card-tech {
+    color: var(--grey);
+    font-size: 14px;
 }

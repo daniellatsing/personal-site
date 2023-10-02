@@ -24,7 +24,8 @@ class Intro extends React.Component {
                     className="intro-contact"
                 >
                     <EmailRoundedIcon></EmailRoundedIcon>
-                    {"  " + "Send a message!"}
+                    {/* <p className="intro-contact-blurb">Send a message!</p> */}
+                    {"Send a message!"}
                 </a>
             </div>
         );
