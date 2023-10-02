@@ -11,14 +11,16 @@ class About extends React.Component {
                 <a href="https://ischool.uw.edu/programs/informatics/what-is-informatics" className="about-major"> Informatics</a>.
                 I previously studied <a href="https://www.biology.washington.edu/about-us" className="about-major"> Biology </a> 
                 under the Cellular, Molecular, and Developmental track, and received my (Transfer) Associates degree from 
-                <a href="https://www.greenriver.edu/campus/welcome-desk/" className="about-school"> Green River College</a>.
+                <a href="https://www.greenriver.edu/campus/welcome-desk/" className="about-school"> Green River College </a>
+                in Biology.
             </p>
         );
 
         const hobbies = (
             <p>
-                Outside of academics, I spend my time learning current design trends, 
-                playing video games, and self-studying Korean. 
+                Outside of academics, I relax at coffee shops and cafes, and spend my 
+                time learning current design trends, playing video games, and
+                self-studying Korean. 
             </p>
         );
 
@@ -27,9 +29,10 @@ class About extends React.Component {
             "Javascript",
             "React.js",
             "HTML & CSS",
+            "R"
         ];
 
-        const tech_items = tech_stack.map(stack => <li>{stack}</li>);
+        const tech_item = tech_stack.map(stack => <li>{stack}</li>);
 
         return (
             <div id="about">

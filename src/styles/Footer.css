@@ -1,0 +1,20 @@
+#credits {
+    font-size: 14px;
+    color: var(--black);
+}
+
+a {
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--black);
+}
+
+.footer-credits {
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    width: 100%;
+}

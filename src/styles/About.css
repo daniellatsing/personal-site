@@ -1,6 +1,6 @@
 #about {
     padding-left: 10%;
-    padding-right: 25%;
+    padding-right: 20%;
     min-height: 60vh;
 }
 
@@ -16,6 +16,10 @@ a.about-school, a.about-major {
     text-decoration: none;
     color: var(--dark-green);
     font-weight: bolder;
+}
+
+a.about-school:hover, a.about-major:hover {
+    color: var(--black);
 }
 
 .about-title {

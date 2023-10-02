@@ -1,12 +1,19 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-methods": "^7.22.5",
+    "@babel/plugin-transform-private-property-in-object": "^7.22.11",
+    "@babel/preset-env": "7.22.20",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.9",
-    "@mui/material": "^5.14.10",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/material": "^5.14.11",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,6 +22,8 @@
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "react-typist": "^2.0.5",
+    "rsuite": "^5.40.0",
+    "typescript": "^5.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/testing-library__jest-dom": "^6.0.0",
+    "eslint": "^8.50.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

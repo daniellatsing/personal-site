@@ -3,7 +3,6 @@ import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import { TypeWriter } from "./TypeWriter";
 
 import ".././styles/Intro.css";
-// import "react-typist/dist/Typist.css";
 
 class Intro extends React.Component {
 

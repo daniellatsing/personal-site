@@ -4,19 +4,22 @@ import React from "react";
 
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer"
+import SidebarNav from "./components/SidebarNav";
 
 
 function App() {
-  
   return (
     <div className="App">
-      <div className="content">
+      <div id="content">
         <Intro></Intro>
         <About></About>
+        {/* <Experience></Experience> */}
+        <Projects></Projects>
+        <Footer></Footer>
       </div>
-      <div className="content">
-
-      </div>
+      <SidebarNav />
     </div>
   );
 }
