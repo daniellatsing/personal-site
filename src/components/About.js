@@ -55,7 +55,7 @@ class About extends React.Component {
                         {[hobbies]}
                     </div>
                     <div className="about-image">
-                        <img src="/images/capybara.gif" alt="capybara"/>
+                        <img src="/images/cat-glasses.jpg" alt="cat with glasses"/>
                     </div>
                 </div>
             </div>
