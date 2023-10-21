@@ -17,7 +17,7 @@
 .jobs-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-gap: 35px;
+    grid-gap: 40px;
     align-items: center;
 }
 
@@ -86,7 +86,8 @@
     content: "▹    ";
     color: var(--dark-green);
     position: relative;
-    left: 0;
+    align-self: baseline;
+    padding-right: 5px;
 }
 
 li::before {

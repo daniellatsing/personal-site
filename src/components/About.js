@@ -29,10 +29,9 @@ class About extends React.Component {
             "Javascript",
             "React.js",
             "HTML & CSS",
-            "R"
+            "R",
+            "SQL"
         ];
-
-        const tech_item = tech_stack.map(stack => <li>{stack}</li>);
 
         return (
             <div id="about">
@@ -42,20 +41,20 @@ class About extends React.Component {
 
                 <div className="about-content">
                     <div className="about-desc">
-                        {[about]}
+                        {about}
                         {/* CHANGE BELOW TEXT LATER */}
                         <p>Here are some technologies I have been working with recently:</p>
                         <ul className="tech-stack">
                             {tech_stack.map(function (tech_item, i) {
                                 return (
-                                    <li>{tech_item}</li>
+                                    <li key={i}>{tech_item}</li>
                                 );
                             })}
                         </ul>
-                        {[hobbies]}
+                        {hobbies}
                     </div>
                     <div className="about-image">
-                        <img src="/images/cat-glasses.jpg" alt="cat with glasses"/>
+                        <img src={process.env.PUBLIC_URL + "/images/cat-glasses.jpg"} alt="cat with glasses"/>
                     </div>
                 </div>
             </div>
