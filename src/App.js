@@ -4,6 +4,7 @@ import React from "react";
 
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer"
 import SidebarNav from "./components/SidebarNav";
@@ -15,7 +16,7 @@ function App() {
       <div id="content">
         <Intro></Intro>
         <About></About>
-        {/* <Experience></Experience> */}
+        <Experience></Experience>
         <Projects></Projects>
         <Footer></Footer>
       </div>
