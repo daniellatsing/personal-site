@@ -49,3 +49,23 @@ a.intro-contact:hover {
 .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
     margin-right: 5px;
 }
+
+/* on 768px OR LARGER displays - TABLET */
+@media (min-width: 768px) {
+    .intro-subtitle {
+        margin-top: -2vh;
+        font-size: 28px;
+        width: 80%;
+    }
+
+    .intro-desc {
+        width: 80%;
+        font-size: 20px;
+        padding-bottom: 3vh;
+    }
+}
+
+/* on 576px OR LARGER dispays - PHONE  */
+@media (min-width: 576px) {
+
+}
