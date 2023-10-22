@@ -37,28 +37,26 @@ class Experience extends React.Component {
                 <div className="experience-header">
                     <span className="experience-title">. experience</span>
                 </div>
-                <div className="experience-container">
-                    <div className="jobs-grid">
-                        {Object.keys(experience_items).map((key, i) => (
-                            <li className="jobs-card">
-                                <div className="card-header">
-                                    <div className="card-company">{key}</div>
-                                    <div className="card-dates">{experience_items[key]["duration"]}</div>
-                                </div>
-                                <div className="card-title">{experience_items[key]["job_title"]}</div>
-                                <div className="card-desc">
-                                    {/* <li>{experience_items[key]["desc"]}</li> */}
-                                    <ul className="job-desc">
-                                        {experience_items[key]["desc"].map(function(job_desc, i) {
-                                            return (
-                                                <li>{job_desc}</li>
-                                            );
-                                        })}
-                                    </ul>
-                                </div>
-                            </li>
-                        ))}
-                    </div>
+                <div className="jobs-grid">
+                    {Object.keys(experience_items).map((key, i) => (
+                        <li className="jobs-card">
+                            <div className="card-header">
+                                <div className="card-company">{key}</div>
+                                <div className="card-dates">{experience_items[key]["duration"]}</div>
+                            </div>
+                            <div className="card-title">{experience_items[key]["job_title"]}</div>
+                            <div className="card-desc">
+                                {/* <li>{experience_items[key]["desc"]}</li> */}
+                                <ul className="job-desc">
+                                    {experience_items[key]["desc"].map(function(job_desc, i) {
+                                        return (
+                                            <li>{job_desc}</li>
+                                        );
+                                    })}
+                                </ul>
+                            </div>
+                        </li>
+                    ))}
                 </div>
             </div>
         )

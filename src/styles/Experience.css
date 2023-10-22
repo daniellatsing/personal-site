@@ -94,3 +94,28 @@ li::before {
     font-size: 20px;
 }
 
+/* on 768px OR SMALLER displays - TABLET */
+@media only screen and (max-width: 826px) {
+    .experience-title {
+        font-size: 32px;
+    }
+
+    .experience-header {
+        padding-bottom: 1.5vh;
+    }
+
+    .jobs-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+        align-items: center;
+    }
+
+    .card-desc {
+        padding-bottom: 1vh;
+    }
+}
+
+/* on 576px OR SMALLER dispays - PHONE  */
+@media only screen and (max-width: 576px) {
+
+}

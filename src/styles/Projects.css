@@ -53,4 +53,27 @@
     color: var(--dark-green);
 }
 
+/* on 768px OR SMALLER displays - TABLET */
+@media only screen and (max-width: 826px) {
+    #project {
+        padding-top: 10vh;
+    }
+    
+    .project-title {
+        font-size: 32px;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 41px;
+    }
 
+    .card-desc {
+        padding-bottom: 2.5vh;
+    }
+}
+
+/* on 576px OR SMALLER dispays - PHONE  */
+@media only screen and (max-width: 576px) {
+
+}

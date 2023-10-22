@@ -37,3 +37,15 @@ a:hover {
     justify-content: space-between;
     padding-bottom: 8px;
 }
+
+/* on 768px OR SMALLER displays - TABLET */
+@media only screen and (max-width: 826px) {
+    .sidebar-nav {
+        position: inherit;
+    }
+}
+
+/* on 576px OR SMALLER dispays - PHONE  */
+@media only screen and (max-width: 576px) {
+
+}
