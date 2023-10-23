@@ -118,4 +118,8 @@ a.about-school:hover, a.about-major:hover {
         margin-left: 0;
         width: 150px;
     }
+
+    .about-desc li {
+        font-size: 14px;
+    }
 }
