@@ -94,5 +94,28 @@ a.about-school:hover, a.about-major:hover {
 
 /* on 576px OR SMALLER dispays - PHONE  */
 @media only screen and (max-width: 576px) {
+    #about {
+        padding-left: 5%;
+    }
 
+    .about-title {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+    .about-image {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-self: center;
+        padding-top: 2vh;
+    }
+
+    .about-image img {
+        margin-left: 0;
+        width: 150px;
+    }
 }

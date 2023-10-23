@@ -117,5 +117,35 @@ li::before {
 
 /* on 576px OR SMALLER dispays - PHONE  */
 @media only screen and (max-width: 576px) {
+    #experience {
+        padding-left: 5%;
+    }
+    
+    .experience-header {
+        padding-bottom: 0.5vh;
+    }
 
+    .experience-title {
+        font-size: 22px;
+    }
+
+    .card-desc li {
+        font-size: 14px;
+    }
+
+    .card-desc {
+        padding-top: 0;
+    }
+
+    .jobs-card {
+        width: 100%;
+    }
+
+    .card-desc {
+        text-align: center;
+    }
+
+    .card-tech {
+        text-align: center;
+    }
 }

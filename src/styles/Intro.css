@@ -71,5 +71,22 @@ a.intro-contact:hover {
 
 /* on 576px OR SMALLER displays - PHONE  */
 @media only screen and (max-width: 576px) {
+    #intro {
+        padding-left: 5%;
+        min-height: 62vh;
+    }
 
+    .intro-subtitle {
+        font-size: 16px;
+    }
+
+    .intro-desc {
+        font-size: 14px;
+        padding-top: 8vh;
+        padding-bottom: 5vh;
+    }
+
+    .intro-contact {
+        font-size: 18px;
+    }
 }
