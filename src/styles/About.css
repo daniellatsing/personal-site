@@ -71,3 +71,55 @@ a.about-school:hover, a.about-major:hover {
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
     border: none;
 }
+
+/* on 768px OR SMALLER displays - TABLET */
+@media only screen and (max-width: 826px) {
+    .about-title {
+        font-size: 32px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+
+    .about-desc ul {
+        justify-content: center;
+    }
+
+    .about-image {
+        padding-top: 40px;
+    }
+}
+
+/* on 576px OR SMALLER dispays - PHONE  */
+@media only screen and (max-width: 576px) {
+    #about {
+        padding-left: 5%;
+    }
+
+    .about-title {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+    .about-image {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-self: center;
+        padding-top: 2vh;
+    }
+
+    .about-image img {
+        margin-left: 0;
+        width: 150px;
+    }
+
+    .about-desc li {
+        font-size: 14px;
+    }
+}

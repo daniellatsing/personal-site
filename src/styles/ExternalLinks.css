@@ -31,3 +31,15 @@ a.github-icon:hover, a.open-icon:hover {
     color: var(--grey);
     font-size: 14px;
 }
+
+/* on 576px OR SMALLER dispays - PHONE  */
+@media only screen and (max-width: 576px) {
+    .card-title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .card-desc {
+        padding-top: 1vh;
+    }
+}

@@ -13,3 +13,17 @@
     color: var(--light-green);
     font-weight: 700;
 }
+
+/* on 768px OR SMALLER displays - TABLET */
+@media only screen and (max-width: 826px) {
+    .typewriter-greeting {
+        font-size: 36px;
+    }
+}
+
+/* on 576px OR SMALLER dispays - PHONE */
+@media only screen and (max-width: 576px) {
+    .typewriter-greeting {
+        font-size: 24px;
+    }
+}
