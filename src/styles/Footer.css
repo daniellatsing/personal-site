@@ -18,3 +18,16 @@ a:hover {
     text-align: center;
     width: 100%;
 }
+
+/* on 768px OR SMALLER displays - TABLET */
+@media only screen and (max-width: 826px) {
+    .footer-credits {
+        padding-top: 8vh;
+        padding-bottom: 2vh;
+    }
+}
+
+/* on 576px OR SMALLER dispays - PHONE  */
+@media only screen and (max-width: 576px) {
+
+}
