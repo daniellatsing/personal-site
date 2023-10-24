@@ -30,32 +30,55 @@ a:hover {
 }
   
 .sidebar-logos {
-    padding-top: 4vh;
+    padding-top: 2vh;
     width: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 8px;
+    padding-bottom: 3vh;
 }
 
-button.darkmode-toggle, .darkmode-layer.darkmode-layer--button {
+/* button.darkmode-toggle, .darkmode-layer.darkmode-layer--button {
     top: 32px;
     left: 32px;
     right: 0px;
-}
+} */
 
 /* on 768px OR SMALLER displays - TABLET */
 @media only screen and (max-width: 826px) {
     .sidebar-nav {
         position: inherit;
     }
+
+    .sidebar-logos {
+        padding-top: 1vh;
+        padding-bottom: 8vh;
+    }
 }
 
 /* on 576px OR SMALLER dispays - PHONE  */
 @media only screen and (max-width: 576px) {
-    button.darkmode-toggle, .darkmode-layer.darkmode-layer--button {
+    /* button.darkmode-toggle, .darkmode-layer.darkmode-layer--button {
         top: 16px;
         left: 16px;
         right: 0px;
+    } */
+
+    .darkmode-layer, .darkmode-toggle {
+        z-index: 500;
+    }
+
+    .sidebar-nav {
+        align-items: flex-start;
+        position: relative;
+        padding-left: 5%;
+    }
+    
+    .sidebar-links {
+        text-align: left;
+    }
+
+    .sidebar-logos {
+        font-size: 25px;
     }
 }
