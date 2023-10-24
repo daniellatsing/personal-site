@@ -38,6 +38,12 @@ a:hover {
     padding-bottom: 8px;
 }
 
+button.darkmode-toggle, .darkmode-layer.darkmode-layer--button {
+    top: 32px;
+    left: 32px;
+    right: 0px;
+}
+
 /* on 768px OR SMALLER displays - TABLET */
 @media only screen and (max-width: 826px) {
     .sidebar-nav {
@@ -47,5 +53,9 @@ a:hover {
 
 /* on 576px OR SMALLER dispays - PHONE  */
 @media only screen and (max-width: 576px) {
-
+    button.darkmode-toggle, .darkmode-layer.darkmode-layer--button {
+        top: 16px;
+        left: 16px;
+        right: 0px;
+    }
 }
