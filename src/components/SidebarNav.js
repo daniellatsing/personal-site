@@ -4,6 +4,7 @@ import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import ContactPageRoundedIcon from '@mui/icons-material/ContactPageRounded';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Darkmode from 'darkmode-js';
 
 import "../styles/SidebarNav.css";
 
@@ -17,6 +18,23 @@ class SidebarNav extends React.Component {
         <a href="#projects">. projects</a>
         ];
 
+        const options = {
+            bottom: '32px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '32px', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+        
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+
         return (
             <div className="sidebar-nav">
                 <Sidenav
@@ -27,9 +45,7 @@ class SidebarNav extends React.Component {
                     <Sidenav.Body>
                         <div className="sidebar-links">
                             {links.map((link, i) => (
-                            //   <FadeInSection delay={`${i + 1}00ms`}>
                                 <div>{link}</div>
-                            //   </FadeInSection>
                             ))}
                         </div>
                     </Sidenav.Body>
