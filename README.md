@@ -2,7 +2,7 @@
     daniellatsing.github.io/personal-site/ - v1
 </h1>
 <p align="center">
-    The first iteration of <a href="https://daniellatsing.github.io/personal-site/" target="_blank">daniellatsing.github.io/personal-site/</a> built with React.js and Darkmode.js, leveraging Material UI.
+    The first iteration of <a href="https://daniellatsing.github.io/personal-site/" target="_blank">daniellatsing.github.io/personal-site/</a> built with React.js and Darkmode.js, and Material UI.
 </p>
 
 ## set-up scripts
@@ -20,9 +20,6 @@ yarn run start
 ```
 
 ## build and run for production
-
-1. Generates a optimized full static production build
-
 ```sh
 npm run build
 ```
