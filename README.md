@@ -2,7 +2,7 @@
     daniellatsing.github.io/personal-site/ - v1
 </h1>
 <p align="center">
-    The first iteration of <a href="https://daniellatsing.github.io/personal-site/" target="_blank">daniellatsing.github.io/personal-site/</a> built with React.js and Darkmode.js, and Material UI.
+    The first iteration of <a href="https://daniellatsing.github.io/personal-site/" target="_blank">daniellatsing.github.io/personal-site/</a> built with React.js, Darkmode.js, and Material UI.
 </p>
 
 ## set-up scripts
