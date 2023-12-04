@@ -60,7 +60,7 @@ class SidebarNav extends React.Component {
                     <a href="https://www.linkedin.com/in/daniellatsing/">
                         <LinkedInIcon style={{ fontSize: 23 }}></LinkedInIcon>
                     </a>
-                    <a href="https://drive.google.com/file/d/10qhNWDSTqwYUSWomRwBRIkUXbszd1JGx/view?usp=sharing">
+                    <a href="https://drive.google.com/file/d/1Ez1cPhR-GyX_zxYIZTSgCJvl15oMLOk7/view?usp=drive_link">
                         <ContactPageRoundedIcon style={{ fontSize: 22}}></ContactPageRoundedIcon>
                     </a>
                 </div>
