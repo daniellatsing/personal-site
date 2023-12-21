@@ -23,7 +23,7 @@ class Projects extends React.Component {
                 desc: "Redesigned and implemented the website for UW Muslim Student Association (MSA).",
                 tech_stack: "Javascript, HTML &  CSS, React.js, Sanity.io, Vercel",
                 link: "https://github.com/webimpactuw/muslim-student-assoc",
-                open: "https://msauw.org"
+                open: "https://github.com/webimpactuw/muslim-student-assoc"
             }
         };
 
